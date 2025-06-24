@@ -1,0 +1,19 @@
+[project]
+name = "op-ag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Jawwad-Ahmed-Khan", email = "jawwadahmedkhan63@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "ruff>=0.12.0",
+]
+
+[project.scripts]
+op-ag = "op_ag:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
